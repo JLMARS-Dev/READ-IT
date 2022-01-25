@@ -1,10 +1,12 @@
-/* *{
+.border
+{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
     flex-direction: column;
 
-} */
+}
+
 .navbar-setting
 {  
     display:flex;
