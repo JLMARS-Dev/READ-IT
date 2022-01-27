@@ -4,9 +4,6 @@ import "./Settings.css";
 
 const Navbar = () => {
     return (
-       
-         
-        
         <nav className="navbar-setting border">
             <h3 className= "SETTINGS">Settings</h3>       
             <ul className="nav-links-setting border">
@@ -20,20 +17,12 @@ const Navbar = () => {
                 <Link to="/about" className="about">
                     <li>About</li>
                     </Link>
-                <Link to="/logout" className="logout">
+                <Link to="/" className="logout">
                     <li>Logout</li>
                     </Link>
-
-
-
-
-            
-            
             </ul>   
         </nav> 
-          
     );
-    
-    };
+};
       
-    export default Navbar;
+export default Navbar;

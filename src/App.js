@@ -33,14 +33,9 @@ function App() {
 				<Route path='/category/nonFiction' element={<NonFiction />} />
 				<Route path='/category/romance' element={<Romance />} />
 				<Route path="/settings" exact element={<Settings/>} /> 
-
 				<Route path="/about" exact element={<About/>} />
-				
 				<Route path="/account" exact element={<Account/>} />
-				
 				<Route path="/security" exact element={<Security/>} />
-				
-				<Route path="/logout" exact element={<Logout/>} />
 			</Routes>
 		</div>
 	)
